@@ -1,0 +1,38 @@
+.gradient-circle {
+  height: 130vh;
+  width: 130vh;
+  z-index: -1;
+  background-color: $color-black;
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  background: radial-gradient(
+    $color-primary-dark 15%,
+    $color-primary 30%,
+    $color-primary-dark 45%,
+    $color-secondary 55%,
+    $color-background-dark 70%
+  );
+  // animation: ripple 0.75s ease-out 1s, move-left 1s ease-out 1.75s;
+}
+
+.gradient-circle-small {
+  height: 120vh;
+  width: 120vh;
+  z-index: -1;
+  background-color: $color-black;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(40%, 0);
+  display: inline-block;
+  background: radial-gradient(
+    $color-primary-dark 15%,
+    $color-primary 30%,
+    $color-primary-dark 45%,
+    $color-secondary 55%,
+    $color-background-dark 70%
+  );
+}

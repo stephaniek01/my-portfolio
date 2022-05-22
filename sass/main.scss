@@ -1,0 +1,30 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+@import "components/card";
+@import "components/gradient-circle";
+@import "components/gradient-line";
+@import "components/form";
+
+@import "layout/navigation";
+
+@import "pages/home";
+
+.heading{
+    position: relative;
+    padding: .5rem;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+  

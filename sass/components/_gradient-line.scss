@@ -1,0 +1,22 @@
+.gradient-line {
+  background-image: linear-gradient(
+    to right,
+    $color-primary-dark,
+    $color-secondary
+  );
+  height: 0.5rem;
+  width: 60%;
+  border-radius: 100px;
+  margin: 0;
+  
+}
+
+.heading-secondary-container {
+  display: inline-block;
+  margin-bottom: 3rem;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}

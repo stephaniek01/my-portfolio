@@ -1,0 +1,27 @@
+.form {
+  width: 100%;
+  &-group {
+    margin-bottom: 5rem;
+  }
+  label {
+    font-size: 2rem;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 1rem 2rem;
+    color: $color-white;
+    font-size: 2rem;
+    background-color: rgba($color: $color-grey, $alpha: 0.25);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+  }
+
+  textarea {
+    font-size: 1.75rem;
+    line-height: 1.7;
+    resize: none;
+    font-family: "Montserrat", sans-serif;
+  }
+}
