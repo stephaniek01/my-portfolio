@@ -22,7 +22,6 @@
     // Functionality
     height: 50rem;
     width: 35rem;
-    // width: 25rem;
     margin: auto;
     font-size: 2.5rem;
   
@@ -36,7 +35,7 @@
     width: 35rem;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 300px) {
     min-height: 65rem;
     width: 25rem;
   }
@@ -81,6 +80,11 @@
           $color-primary-dark,
           $color-secondary-light
         );
+
+        @media screen and (max-width: 900px) {
+          display: none;
+          visibility: hidden;
+        }
       }
     }
   
@@ -89,16 +93,28 @@
     &__side--front:active 
     {
       transform: rotateY(-180deg);
+
+      @media screen and (max-width: 900px) {
+        transform: none;
+      }
     }
   
     &:hover &__side--back,
     &:focus &__side--back,
     &__side--front:active ~  &__side--back {
       transform: rotateY(0);
+
+      @media screen and (max-width: 900px) {
+        transform: none;
+      }
     }
   
     &__side--back:active{
       transform: scale(2);
+
+      @media screen and (max-width: 900px) {
+        transform: none;
+      }
     }
   
     // Card Frontside Styling
