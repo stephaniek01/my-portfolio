@@ -1,3 +1,12 @@
+html {
+  // This defines what 1rem is
+  font-size: 62.5%;
+
+  @media only screen and (max-width: 400px) {
+    font-size: 58%;
+  }
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -8,45 +17,79 @@ body {
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
-  
+
+  &-container {
+    position: relative;
+    padding: 0.5rem;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   &-main {
     text-align: center;
     font-size: 6.5rem;
     letter-spacing: 1.7rem;
     font-weight: 100;
 
-    animation: fade-in 2.75s 0s, move-in-from-top 0.5s 2.75s;
+    @media screen and (max-width: 600px) {
+      letter-spacing: 0.5rem;
+      font-weight: 400;
+    }
+
+    animation: fade-in 3.25s 0s, move-in-from-top 1s 3.25s;
   }
 
   &-sub {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 0.25rem;
     font-weight: 100;
     display: inline-block;
 
+    @media only screen and (max-width: 400px) {
+      font-weight: 400;
+    }
+
     &--1 {
-      animation: fade-in 3.25s 0s, move-in-from-top 0.5s 3.25s;
+      animation: fade-in 2.75s 0s, move-in-from-top 0.5s 2.75s;
     }
 
     &--2 {
-      animation: fade-in 3.5s 0s, move-in-from-top 0.5s 3.5s;
-    }
-
-    &--3 {
-      animation: fade-in 3.75s 0s, move-in-from-top 0.5s 3.75s;
+      animation: fade-in 4.25s 0s, move-in-from-top 0.5s 4.25s;
     }
   }
 }
 
-.heading-secondary {
+.heading-secondary{
   font-size: 3rem;
   letter-spacing: $letter-spacing-small;
   font-weight: 200;
   text-transform: uppercase;
   transition: all 1s;
+
+  &-container {
+    display: inline-block;
+    margin-bottom: 3rem;
+  }
+  
 }
 
-.paragraph{
+.paragraph {
   font-size: $font-size-small;
+  
+}
+
+.gradient-background{
+  background-image: linear-gradient(
+    to right,
+    $color-primary-dark,
+    $color-secondary-light
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 600;
 }

@@ -15,16 +15,4 @@
 
 @import "layout/navigation";
 
-@import "pages/home";
-
-.heading{
-    position: relative;
-    padding: .5rem;
-    display: flex;
-    height: 80vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-  
-  
+@import "pages/home";  

@@ -4,11 +4,12 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+<!-- <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet"> -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap"
+  rel="stylesheet" />
 <link rel="stylesheet" href="css/style.css">
 <title>Document</title>
 </head>
@@ -16,7 +17,7 @@
 <body>
   <div class="container">
     <section class="hero">
-      <div class="navbar u-padding-small">
+      <div class="navbar">
         <ul class="navbar__list">
           <li class="navbar__item">
             <a href="#about" class="navbar__item-link">About</a>
@@ -30,17 +31,15 @@
         </ul>
       </div>
       <div class="gradient-circle">&nbsp;</div>
-      <div class="heading">
-        <h1 class="heading-primary-main">
-          Stephanie Kedari
-        </h1>
-        <h2 class="heading-primary-sub">
-          <span class="heading-primary-sub heading-primary-sub--1">UI/UX Developer</span>
-
-          <span class="heading-primary-sub heading-primary-sub--2"> • Lorem, ipsum</span>
-
-          <span class="heading-primary-sub heading-primary-sub--3"> • Dolor sit</span>
-        </h2>
+      <div class="heading-primary-container">
+        <h2 class="heading-primary-sub--1">
+          <span class="heading-primary-sub heading-primary-sub">Hi, I'm</span>
+          <h1 class="heading-primary-main">
+            Stephanie Kedari
+          </h1>
+          <h2 class="heading-primary-sub--2">
+            <span class="heading-primary-sub heading-primary-sub--1">a UI/UX Developer</span>
+          </h2>
       </div>
     </section>
     <section class="two" id="projects">
@@ -50,58 +49,52 @@
       </div>
 
       <div class="cards">
-      
+
 
 
         <div class="card">
           <div class="card__side card__side--front">
-            <div class="card__picture card__picture">
+            <div class="card__picture card__picture" id="project-1">
               &nbsp;
             </div>
-    
-            <div class="card__details">
-              <h4>
-                <span class="project-heading">Project 1</span></h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-                commodi, magni ullam optio quo delectus aliquid consequuntur sed
-                consequatur saepe temporibus magnam suscipit sunt cumque quia libero
-                sint officiis exercitationem!
-              </p>
-              <br />
-              <!-- <p class="d-xl-none pro">ReactJS, ReduxJS, NodeJS, Typescript</p> -->
-              <div class="btn-group lg-hide ">
 
-                <a href="#popup" class="btn btn--white">
-                  Github
-                </a>
-                <a href="#popup" class="btn btn--white">
-                  Live Site
-                </a>
-              </div>
-              <!-- {/* <a href="">link</a> */} -->
+            <div class="card__details">
+              <h4 class="u-margin-bottom-small">
+                <span class="project-heading gradient-background">Developer's Network</span>
+              </h4>
+              <p>
+                A social media website aimed towards people in the software development world to interact and share
+                their ideas with one another.
+              </p>
+                       <!-- visible only on small screens < 1200px -->
+                       <div class="lg-hide">
+                        <p class="u-margin-bottom-small gradient-background">ReactJS, ReduxJS, FireBase, Styled Components, JavaScript</p>
+                        <div class="btn-group lg-hide u-margin-bottom-small">
+                          <a href="#popup" class="btn btn--white">
+                            Github
+                          </a>
+                          <a href="#popup" class="btn btn--white">
+                            Live Site
+                          </a>
+                        </div>
+                      </div>
             </div>
           </div>
-    
+
           <div class="card__side card__side--back d-none  d-xl-block">
-          <div class="card__domain-box">
-              <p class="card__domain-heading">Frontend</p>
-              <ul class="no-decoration">
-                <span class="card__domain-item">React</span>
-                <span class="card__domain-item">Redux</span>
-                <span class="card__domain-item">Typescript</span>
-              </ul>
-      
-            </div>
-    
             <div class="card__domain-box">
-              <p class="card__domain-heading">Back End</p>
-              <span class="card__domain-item">React, Redux</span>
+              <p class="card__domain-heading">Frontend</p>
+              <span class="card__domain-item">ReactJS, Redux, TailwindCSS, JavaScript</span>
             </div>
-    
+
+            <div class="card__domain-box">
+              <p class="card__domain-heading">Backend</p>
+              <span class="card__domain-item">Node, Express, Mongoose, JSON Web-token</span>
+            </div>
+
             <div class="card__domain-box">
               <p class="card__domain-heading">Database</p>
-              <span class="card__domain-item">React, Redux</span>
+              <span class="card__domain-item">MongoDB</span>
             </div>
 
             <div class="btn-group">
@@ -118,57 +111,58 @@
 
         <div class="card">
           <div class="card__side card__side--front">
-            <div class="card__picture card__picture">
+            <div class="card__picture card__picture" id="project-2">
               &nbsp;
             </div>
-    
-            <div class="card__details">
-              <h4>
-                <span class="project-heading">Project 1</span></h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-                commodi, magni ullam optio quo delectus aliquid consequuntur sed
-                consequatur saepe temporibus magnam suscipit sunt cumque quia libero
-                sint officiis exercitationem!
-              </p>
-              <br />
-              <!-- <p class="d-xl-none pro">ReactJS, ReduxJS, NodeJS, Typescript</p> -->
-              <div class="btn-group lg-hide ">
 
-                <a href="#popup" class="btn btn--white">
-                  Github
-                </a>
-                <a href="#popup" class="btn btn--white">
-                  Live Site
-                </a>
+            <div class="card__details">
+              <h4 class="u-margin-bottom-small">
+                <span class="project-heading gradient-background ">E-commerce Web App</span>
+              </h4>
+              <p class="u-margin-bottom-small">
+                A shooping web application where users can browse through a variety of products. It also allows users to
+                add products to their cart.
+              </p>
+
+              <!-- visible only on large screens > 1200px -->
+              <div class="sm-hide">
+                <span class="view-details u-margin-bottom-small">Hover to see project details</span>
               </div>
-              <!-- {/* <a href="">link</a> */} -->
+
+              <!-- visible only on small screens < 1200px -->
+              <div class="lg-hide">
+                <p class="u-margin-bottom-small gradient-background">ReactJS, ReduxJS, NodeJS, Typescript</p>
+                <div class="btn-group lg-hide u-margin-bottom-small">
+                  <a href="#popup" class="btn btn--white">
+                    Github
+                  </a>
+                  <a href="#popup" class="btn btn--white">
+                    Live Site
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
-    
+
           <div class="card__side card__side--back d-none  d-xl-block">
-          <div class="card__domain-box">
+            <div class="card__domain-box">
               <p class="card__domain-heading">Frontend</p>
-              <ul class="no-decoration">
-                <span class="card__domain-item">React</span>
-                <span class="card__domain-item">Redux</span>
-                <span class="card__domain-item">Typescript</span>
-              </ul>
-      
+                <span class="card__domain-item">ReactJS, ContextAPI, Styled Componets</span>
+
             </div>
-    
+
             <div class="card__domain-box">
               <p class="card__domain-heading">Back End</p>
-              <span class="card__domain-item">React, Redux</span>
+              <span class="card__domain-item">FireBase</span>
             </div>
-    
+
             <div class="card__domain-box">
               <p class="card__domain-heading">Database</p>
-              <span class="card__domain-item">React, Redux</span>
+              <span class="card__domain-item">FireStore</span>
             </div>
 
             <div class="btn-group">
-
               <a href="#popup" class="btn btn--white">
                 Github
               </a>
@@ -190,12 +184,21 @@
         <div class="gradient-line">&nbsp;</div>
       </div>
 
-      <p class="paragraph">I’m obsessed with leveling the playing field. In 2017, when I embarked on an entrepreneurial journey with my life partner, Issey, and centered Golde around the vision that wellness and superfoods ought to be more approachable, inclusive, and (yes) fun. Within a few years of launch, we’d grown a profitable, bootstrapped brand with a full-time team of two to partnerships with Urban Outfitters, Goop, and have since launched at Target.
-<br/><br/>
-        While building a brand may have looked effortless from the outside, starting a business at age 23 with no resources or funding quickly forced me to realize that early-stage entrepreneurship was anything but transparent. In 2019, I began documenting my experience and learnings via office_hrs, a digital and irl series focused on helping more young people build, launch, and scale their own businesses. 
-<br/><br/>
-        
-        I live Upstate with tons of houseplants and a growing natural wine collection. Say hi here: tm@trinitymouzon.com.</p>
+      <p class="paragraph">I’m obsessed with leveling the playing field. In 2017, when I embarked on an entrepreneurial
+        journey with my life partner, Issey, and centered Golde around the vision that wellness and superfoods ought to
+        be more approachable, inclusive, and (yes) fun. Within a few years of launch, we’d grown a profitable,
+        bootstrapped brand with a full-time team of two to partnerships with Urban Outfitters, Goop, and have since
+        launched at Target.
+        <br /><br />
+        While building a brand may have looked effortless from the outside, starting a business at age 23 with no
+        resources or funding quickly forced me to realize that early-stage entrepreneurship was anything but
+        transparent. In 2019, I began documenting my experience and learnings via office_hrs, a digital and irl series
+        focused on helping more young people build, launch, and scale their own businesses.
+        <br /><br />
+
+        I live Upstate with tons of houseplants and a growing natural wine collection. Say hi here:
+        tm@trinitymouzon.com.
+      </p>
     </section>
     <section class="section-about">
       <div class="heading-secondary-container">
@@ -213,8 +216,8 @@
 
         <div class="form-group">
           <label>Message</label>
-          <br/>
-          <textarea rows="8" maxlength="300" spellcheck="false" > </textarea>
+          <br />
+          <textarea rows="8" maxlength="300" spellcheck="false"> </textarea>
         </div>
         <button class="btn btn--gradient">Send</button>
       </div>
