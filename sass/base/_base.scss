@@ -25,50 +25,62 @@ body {
 
 section {
   color: whitesmoke;
-  scroll-snap-align: start;
+  scroll-snap-align: end;
   padding: 10rem 25rem;
 }
 
 // below 600
 @media screen and (max-width: 600px) {
+  .card {
+    height: 70rem !important;
 
-  .hero{}
-  
+    &__side {
+      height: 70rem !important;
+    }
+  }
+
+  .container {
+    scroll-snap-type: none !important;
+    // overflow-y: hidden !important;
+  }
+
+  .btn {
+    padding: 0.75rem 1.25rem !important;
+  }
+
   .navbar {
     font-size: 1.25rem !important;
     font-weight: 600 !important;
 
     padding: 0 !important;
-
   }
 
-  .pargraph{
+  .pargraph {
     font-size: 1.5rem !important;
   }
 
   .heading-primary {
     &-main {
       font-size: 6rem !important;
-      letter-spacing: .5rem !important;
+      letter-spacing: 0.5rem !important;
       font-weight: 400 !important;
-  
+
       // animation: fade-in 2.75s 0s, move-in-from-top 0.5s 2.75s;
     }
-  
+
     &-sub {
       font-size: 1.75rem !important;
       font-weight: 400 !important;
-
     }
   }
 
-  .gradient-circle{
+  .gradient-circle {
     left: -30% !important;
     top: 40% !important;
   }
 
-  section{
-    padding: 3rem !important;
+  section {
+    padding: 3rem !important; scroll-snap-align: none !important;
   }
 }
 
@@ -85,8 +97,3 @@ section {
     visibility: hidden;
   }
 }
-
-
-
-
-
