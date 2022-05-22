@@ -243,14 +243,10 @@ body {
   font-size: 1rem;
   perspective: 150rem;
   -moz-perspective: 150rem; }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .card {
       min-height: 65rem;
-      width: 30rem; } }
-  @media screen and (max-width: 250px) {
-    .card {
-      min-height: 65rem;
-      width: 35rem; } }
+      width: 27rem; } }
   .card__side {
     height: 50rem;
     transition: all 0.8s ease;
