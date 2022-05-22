@@ -66,21 +66,21 @@ section {
   .navbar {
     font-size: 1.75rem !important;
     font-weight: 600 !important;
-    padding: 1rem !important; }
+    padding: 0 !important; }
   .pargraph {
     font-size: 1.5rem !important; }
   .heading-primary-main {
-    font-size: 6.5rem !important;
-    letter-spacing: 1rem !important;
+    font-size: 6rem !important;
+    letter-spacing: .5rem !important;
     font-weight: 400 !important; }
   .heading-primary-sub {
-    font-size: 2rem !important;
+    font-size: 1.75rem !important;
     font-weight: 400 !important; }
   .gradient-circle {
     left: -30% !important;
     top: 40% !important; }
   section {
-    padding: 2.5rem !important; } }
+    padding: 3rem !important; } }
 
 @media screen and (max-width: 900px) {
   section {

@@ -36,7 +36,7 @@ section {
     font-size: 1.75rem !important;
     font-weight: 600 !important;
 
-    padding: 1rem !important;
+    padding: 0 !important;
 
   }
 
@@ -46,15 +46,15 @@ section {
 
   .heading-primary {
     &-main {
-      font-size: 6.5rem !important;
-      letter-spacing: 1rem !important;
+      font-size: 6rem !important;
+      letter-spacing: .5rem !important;
       font-weight: 400 !important;
   
       // animation: fade-in 2.75s 0s, move-in-from-top 0.5s 2.75s;
     }
   
     &-sub {
-      font-size: 2rem !important;
+      font-size: 1.75rem !important;
       font-weight: 400 !important;
 
     }
@@ -66,7 +66,7 @@ section {
   }
 
   section{
-    padding: 2.5rem !important;
+    padding: 3rem !important;
   }
 }
 
