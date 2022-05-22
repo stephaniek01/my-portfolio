@@ -15,7 +15,7 @@ body {
     letter-spacing: 1.7rem;
     font-weight: 100;
 
-    // animation: fade-in 2.75s 0s, move-in-from-top 0.5s 2.75s;
+    animation: fade-in 2.75s 0s, move-in-from-top 0.5s 2.75s;
   }
 
   &-sub {
@@ -26,15 +26,15 @@ body {
     display: inline-block;
 
     &--1 {
-      // animation: fade-in 3.25s 0s, move-in-from-top 0.5s 3.25s;
+      animation: fade-in 3.25s 0s, move-in-from-top 0.5s 3.25s;
     }
 
     &--2 {
-      // animation: fade-in 3.5s 0s, move-in-from-top 0.5s 3.5s;
+      animation: fade-in 3.5s 0s, move-in-from-top 0.5s 3.5s;
     }
 
     &--3 {
-      // animation: fade-in 3.75s 0s, move-in-from-top 0.5s 3.75s;
+      animation: fade-in 3.75s 0s, move-in-from-top 0.5s 3.75s;
     }
   }
 }

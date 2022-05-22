@@ -31,9 +31,11 @@ section {
 
 // below 600
 @media screen and (max-width: 600px) {
+
+  .hero{}
   
   .navbar {
-    font-size: 1.75rem !important;
+    font-size: 1.25rem !important;
     font-weight: 600 !important;
 
     padding: 0 !important;

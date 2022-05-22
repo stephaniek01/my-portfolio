@@ -64,7 +64,7 @@ section {
 
 @media screen and (max-width: 600px) {
   .navbar {
-    font-size: 1.75rem !important;
+    font-size: 1.25rem !important;
     font-weight: 600 !important;
     padding: 0 !important; }
   .pargraph {
@@ -103,13 +103,20 @@ body {
     text-align: center;
     font-size: 6.5rem;
     letter-spacing: 1.7rem;
-    font-weight: 100; }
+    font-weight: 100;
+    animation: fade-in 2.75s 0s, move-in-from-top 0.5s 2.75s; }
   .heading-primary-sub {
     text-align: center;
     font-size: 1.5rem;
     letter-spacing: 0.25rem;
     font-weight: 100;
     display: inline-block; }
+    .heading-primary-sub--1 {
+      animation: fade-in 3.25s 0s, move-in-from-top 0.5s 3.25s; }
+    .heading-primary-sub--2 {
+      animation: fade-in 3.5s 0s, move-in-from-top 0.5s 3.5s; }
+    .heading-primary-sub--3 {
+      animation: fade-in 3.75s 0s, move-in-from-top 0.5s 3.75s; }
 
 .heading-secondary {
   font-size: 3rem;
@@ -329,7 +336,8 @@ body {
   top: 40%;
   transform: translate(-50%, -50%);
   display: inline-block;
-  background: radial-gradient(#a100f2 15%, #9869f4 30%, #a100f2 45%, #db00b6 55%, #171717 70%); }
+  background: radial-gradient(#a100f2 15%, #9869f4 30%, #a100f2 45%, #db00b6 55%, #171717 70%);
+  animation: ripple 0.75s ease-out 1s, move-left 1s ease-out 1.75s; }
 
 .gradient-circle-small {
   height: 120vh;
