@@ -27,6 +27,12 @@ section {
   min-height: 100vh;
 }
 
+.section-projects{
+  @media screen and (max-width: 400px) {
+    padding: .5rem !important;
+  }
+}
+
 .section-about {
   position: relative;
 }
