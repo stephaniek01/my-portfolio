@@ -246,7 +246,7 @@ body {
   @media screen and (max-width: 600px) {
     .card {
       min-height: 65rem;
-      width: 35rem; } }
+      width: 30rem; } }
   @media screen and (max-width: 250px) {
     .card {
       min-height: 65rem;
