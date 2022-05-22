@@ -236,7 +236,7 @@ body {
 
 .card {
   height: 50rem;
-  width: 35rem;
+  width: 40rem;
   margin: auto;
   font-size: 2.5rem;
   position: relative;
@@ -246,11 +246,11 @@ body {
   @media screen and (max-width: 600px) {
     .card {
       min-height: 65rem;
-      width: 35rem; } }
+      width: 40rem; } }
   @media screen and (max-width: 250px) {
     .card {
       min-height: 65rem;
-      width: 25rem; } }
+      width: 35rem; } }
   .card__side {
     height: 50rem;
     transition: all 0.8s ease;
