@@ -12,10 +12,11 @@
 
 section {
   color: whitesmoke;
-  scroll-snap-align: end;
+  scroll-snap-align: center;
   padding: 10rem 25rem;
+  margin: 2rem 0;
 
-  @media screen and (max-width:900px) {
+  @media screen and (max-width:1200px) {
     padding: 3rem;
     scroll-snap-align: none;
   }

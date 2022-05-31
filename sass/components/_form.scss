@@ -1,10 +1,11 @@
 .form {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   &-group {
+    width: 100%;
     margin-bottom: 5rem;
   }
   label {
@@ -32,5 +33,26 @@
   .btn{
     align-self: center;
     padding: 1rem 4rem !important;
+  }
+
+  &-message{
+    width: fit-content;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    bottom: 3rem;
+    left: 3rem;
+    visibility: hidden;
+
+    &--success{
+      background-color: rgba(14, 185, 80,.7);
+    }
+    
+    &--error{
+      background-color: rgba(185, 14, 23, 0.7);
+      
+    }
   }
 }

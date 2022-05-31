@@ -4,17 +4,22 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet"> -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap"
   rel="stylesheet" />
 <link rel="stylesheet" href="css/style.css">
-<title>Document</title>
+<title>Stephanie Kedari</title>
 </head>
 
 <body>
+
+
+
   <div class="container">
     <section class="hero">
       <div class="navbar">
@@ -42,16 +47,13 @@
           </h2>
       </div>
     </section>
-    <section class="two" id="projects">
+    <section id="projects">
       <div class="heading-secondary-container">
         <h1 class="heading-secondary">Projects</h1>
         <div class="gradient-line">&nbsp;</div>
       </div>
 
       <div class="cards">
-
-
-
         <div class="card">
           <div class="card__side card__side--front">
             <div class="card__picture card__picture" id="project-1">
@@ -66,18 +68,25 @@
                 A social media website aimed towards people in the software development world to interact and share
                 their ideas with one another.
               </p>
-                       <!-- visible only on small screens < 1200px -->
-                       <div class="lg-hide">
-                        <p class="u-margin-bottom-small gradient-background">ReactJS, ReduxJS, FireBase, Styled Components, JavaScript</p>
-                        <div class="btn-group lg-hide u-margin-bottom-small">
-                          <a href="#popup" class="btn btn--white">
-                            Github
-                          </a>
-                          <a href="#popup" class="btn btn--white">
-                            Live Site
-                          </a>
-                        </div>
-                      </div>
+
+              <!-- visible only on large screens > 1200px -->
+              <div class="sm-hide">
+                <span class="view-details u-margin-bottom-small">Hover to see project details</span>
+              </div>
+
+              <!-- visible only on small screens < 1200px -->
+              <div class="lg-hide">
+                <p class="u-margin-bottom-small gradient-background">ReactJS, ReduxJS, FireBase, Styled Components,
+                  JavaScript</p>
+                <div class="btn-group lg-hide u-margin-bottom-small">
+                  <a href="#popup" class="btn btn--white">
+                    Github
+                  </a>
+                  <a href="#popup" class="btn btn--white">
+                    Live Site
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -148,7 +157,7 @@
           <div class="card__side card__side--back d-none  d-xl-block">
             <div class="card__domain-box">
               <p class="card__domain-heading">Frontend</p>
-                <span class="card__domain-item">ReactJS, ContextAPI, Styled Componets</span>
+              <span class="card__domain-item">ReactJS, ContextAPI, Styled Componets</span>
 
             </div>
 
@@ -178,7 +187,97 @@
 
 
     </section>
-    <section class="three" id="about">
+    <section id="technology">
+      <div class="heading-secondary-container">
+        <h1 class="heading-secondary">Technologies</h1>
+        <div class="gradient-line">&nbsp;</div>
+      </div>
+
+      <div class="icon-container">
+
+        <div class="icon-group">
+          <div class="tooltip">Bootstrap</div>
+          <img src="./images/icons/bootstrap.svg" alt="bootstrap" class="icon" />
+        </div>
+    
+        <div class="icon-group">
+          <div class="tooltip">Graphql</div>
+          <img src="./images/icons/graphql.svg" alt="graphql" class="icon" />
+        </div>
+    
+        <div class="icon-group">
+          <div class="tooltip">Typescript</div>
+          <img src="./images/icons/typescript.svg" alt="typescript" class="icon" />
+        </div>
+    
+        <div class="icon-group">
+          <div class="tooltip">React.js</div>
+          <img src="./images/icons/reactjs.svg" alt="react.js" class="icon" />
+        </div>
+    
+        <div class="icon-group">
+          <div class="tooltip">CSS</div>
+          <img src="./images/icons/css.svg" alt="css" class="icon" />
+        </div>
+    
+        <div class="icon-group">
+          <div class="tooltip">Firebase</div>
+          <img src="./images/icons/firebase.svg" alt="firebase" class="icon" />
+        </div>
+    
+        <div class="icon-group">
+          <div class="tooltip">HTML</div>
+          <img src="./images/icons/html.svg" alt="html" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">Mongodb</div>
+          <img src="./images/icons/mongodb.svg" alt="mongodb" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">Webpack</div>
+          <img src="./images/icons/webpack.svg" alt="webpack" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">Postgresql</div>
+          <img src="./images/icons/postgres.svg" alt="postgresql" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">SASS</div>
+          <img src="./images/icons/sass.svg" alt="sass" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">Tailwind</div>
+          <img src="./images/icons/tailwind.svg" alt="tailwind css" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">Git</div>
+          <img src="./images/icons/git.svg" alt="git" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">Electron</div>
+          <img src="./images/icons/electron.svg" alt="electron js" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">Redux</div>
+          <img src="./images/icons/redux.svg" alt="redux js" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">JavaScript</div>
+          <img src="./images/icons/javascript.svg" alt="javascript" class="icon" />
+        </div>
+    
+        <div class="icon-group">
+          <div class="tooltip">Express</div>
+          <img src="./images/icons/express.svg" alt="Express js" class="icon" />
+        </div>
+      </div>
+
+
+    
+
+    </section>
+
+    <section id="about">
       <div class="heading-secondary-container">
         <h1 class="heading-secondary">About</h1>
         <div class="gradient-line">&nbsp;</div>
@@ -206,28 +305,33 @@
         <div class="gradient-line">&nbsp;</div>
       </div>
       <div class="gradient-circle-small">&nbsp;</div>
-      <div class="form">
+      <form id="my-form" class="form" method="post">
         <div class="form-group">
-          <label>Name<input type="text" /></label>
+          <label>Name
+          </label>
+          <input name="name" type="text" />
         </div>
         <div class="form-group">
-          <label>Email<input type="email" /></label>
+          <label>Email
+          </label>
+          <input name="email" type="email" />
         </div>
 
         <div class="form-group">
           <label>Message</label>
           <br />
-          <textarea rows="8" maxlength="300" spellcheck="false"> </textarea>
+          <textarea name="message" rows="4" maxlength="300" spellcheck="false"> </textarea>
         </div>
-        <button class="btn btn--gradient">Send</button>
-      </div>
-    </section>
-    <footer>
-      LinkedIN
-    </footer>
 
+        <div id="contact-form-status" class="form-group form-message">
+        </div>
+        <button type="submit" id="contact-form-submit-button" class="btn btn--gradient">Send</button>
+
+
+      </form>
   </div>
 
+  <script src="https://kit.fontawesome.com/2059bd1290.js" crossorigin="anonymous"></script>
 
   <script src="app.js"></script>
 </body>
