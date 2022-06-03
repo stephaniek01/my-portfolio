@@ -16,6 +16,11 @@
     $color-background-dark 70%
   );
   // animation: ripple 0.75s ease-out 1s, move-left 1s ease-out 1.75s;
+
+  @media screen and (max-width: 400px) {
+    left: -30%;
+    top: 40%;
+  }
 }
 
 .gradient-circle-small {
@@ -35,4 +40,8 @@
     $color-secondary 55%,
     $color-background-dark 70%
   );
+
+  @media screen and (max-width: 900px) {
+    visibility: hidden;
+  }
 }

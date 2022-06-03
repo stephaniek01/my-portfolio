@@ -4,19 +4,25 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap"
+  rel="stylesheet" />
 <link rel="stylesheet" href="css/style.css">
-<title>Document</title>
+<title>Stephanie Kedari</title>
 </head>
 
 <body>
+
+
+
   <div class="container">
     <section class="hero">
-      <div class="navbar u-padding-small">
+      <div class="navbar">
         <ul class="navbar__list">
           <li class="navbar__item">
             <a href="#about" class="navbar__item-link">About</a>
@@ -30,78 +36,74 @@
         </ul>
       </div>
       <div class="gradient-circle">&nbsp;</div>
-      <div class="heading">
-        <h1 class="heading-primary-main">
-          Stephanie Kedari
-        </h1>
-        <h2 class="heading-primary-sub">
-          <span class="heading-primary-sub heading-primary-sub--1">UI/UX Developer</span>
-
-          <span class="heading-primary-sub heading-primary-sub--2"> • Lorem, ipsum</span>
-
-          <span class="heading-primary-sub heading-primary-sub--3"> • Dolor sit</span>
-        </h2>
+      <div class="heading-primary-container">
+        <h2 class="heading-primary-sub--1">
+          <span class="heading-primary-sub heading-primary-sub">Hi, I'm</span>
+          <h1 class="heading-primary-main">
+            Stephanie Kedari
+          </h1>
+          <h2 class="heading-primary-sub--2">
+            <span class="heading-primary-sub heading-primary-sub--1">a UI/UX Developer</span>
+          </h2>
       </div>
     </section>
-    <section class="two" id="projects">
+    <section id="projects">
       <div class="heading-secondary-container">
         <h1 class="heading-secondary">Projects</h1>
         <div class="gradient-line">&nbsp;</div>
       </div>
 
       <div class="cards">
-      
-
-
         <div class="card">
           <div class="card__side card__side--front">
-            <div class="card__picture card__picture">
+            <div class="card__picture card__picture" id="project-1">
               &nbsp;
             </div>
-    
-            <div class="card__details">
-              <h4>
-                <span class="project-heading">Project 1</span></h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-                commodi, magni ullam optio quo delectus aliquid consequuntur sed
-                consequatur saepe temporibus magnam suscipit sunt cumque quia libero
-                sint officiis exercitationem!
-              </p>
-              <br />
-              <!-- <p class="d-xl-none pro">ReactJS, ReduxJS, NodeJS, Typescript</p> -->
-              <div class="btn-group lg-hide ">
 
-                <a href="#popup" class="btn btn--white">
-                  Github
-                </a>
-                <a href="#popup" class="btn btn--white">
-                  Live Site
-                </a>
+            <div class="card__details">
+              <h4 class="u-margin-bottom-small">
+                <span class="project-heading gradient-background">Developer's Network</span>
+              </h4>
+              <p>
+                A social media website aimed towards people in the software development world to interact and share
+                their ideas with one another.
+              </p>
+
+              <!-- visible only on large screens > 1200px -->
+              <div class="sm-hide">
+                <span class="view-details u-margin-bottom-small">Hover to see project details</span>
               </div>
-              <!-- {/* <a href="">link</a> */} -->
+
+              <!-- visible only on small screens < 1200px -->
+              <div class="lg-hide">
+                <p class="u-margin-bottom-small gradient-background">ReactJS, ReduxJS, FireBase, Styled Components,
+                  JavaScript</p>
+                <div class="btn-group lg-hide u-margin-bottom-small">
+                  <a href="#popup" class="btn btn--white">
+                    Github
+                  </a>
+                  <a href="#popup" class="btn btn--white">
+                    Live Site
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-    
+
           <div class="card__side card__side--back d-none  d-xl-block">
-          <div class="card__domain-box">
-              <p class="card__domain-heading">Frontend</p>
-              <ul class="no-decoration">
-                <span class="card__domain-item">React</span>
-                <span class="card__domain-item">Redux</span>
-                <span class="card__domain-item">Typescript</span>
-              </ul>
-      
-            </div>
-    
             <div class="card__domain-box">
-              <p class="card__domain-heading">Back End</p>
-              <span class="card__domain-item">React, Redux</span>
+              <p class="card__domain-heading">Frontend</p>
+              <span class="card__domain-item">ReactJS, Redux, TailwindCSS, JavaScript</span>
             </div>
-    
+
+            <div class="card__domain-box">
+              <p class="card__domain-heading">Backend</p>
+              <span class="card__domain-item">Node, Express, Mongoose, JSON Web-token</span>
+            </div>
+
             <div class="card__domain-box">
               <p class="card__domain-heading">Database</p>
-              <span class="card__domain-item">React, Redux</span>
+              <span class="card__domain-item">MongoDB</span>
             </div>
 
             <div class="btn-group">
@@ -118,57 +120,58 @@
 
         <div class="card">
           <div class="card__side card__side--front">
-            <div class="card__picture card__picture">
+            <div class="card__picture card__picture" id="project-2">
               &nbsp;
             </div>
-    
-            <div class="card__details">
-              <h4>
-                <span class="project-heading">Project 1</span></h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-                commodi, magni ullam optio quo delectus aliquid consequuntur sed
-                consequatur saepe temporibus magnam suscipit sunt cumque quia libero
-                sint officiis exercitationem!
-              </p>
-              <br />
-              <!-- <p class="d-xl-none pro">ReactJS, ReduxJS, NodeJS, Typescript</p> -->
-              <div class="btn-group lg-hide ">
 
-                <a href="#popup" class="btn btn--white">
-                  Github
-                </a>
-                <a href="#popup" class="btn btn--white">
-                  Live Site
-                </a>
+            <div class="card__details">
+              <h4 class="u-margin-bottom-small">
+                <span class="project-heading gradient-background ">E-commerce Web App</span>
+              </h4>
+              <p class="u-margin-bottom-small">
+                A shooping web application where users can browse through a variety of products. It also allows users to
+                add products to their cart.
+              </p>
+
+              <!-- visible only on large screens > 1200px -->
+              <div class="sm-hide">
+                <span class="view-details u-margin-bottom-small">Hover to see project details</span>
               </div>
-              <!-- {/* <a href="">link</a> */} -->
+
+              <!-- visible only on small screens < 1200px -->
+              <div class="lg-hide">
+                <p class="u-margin-bottom-small gradient-background">ReactJS, ReduxJS, NodeJS, Typescript</p>
+                <div class="btn-group lg-hide u-margin-bottom-small">
+                  <a href="#popup" class="btn btn--white">
+                    Github
+                  </a>
+                  <a href="#popup" class="btn btn--white">
+                    Live Site
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
-    
+
           <div class="card__side card__side--back d-none  d-xl-block">
-          <div class="card__domain-box">
+            <div class="card__domain-box">
               <p class="card__domain-heading">Frontend</p>
-              <ul class="no-decoration">
-                <span class="card__domain-item">React</span>
-                <span class="card__domain-item">Redux</span>
-                <span class="card__domain-item">Typescript</span>
-              </ul>
-      
+              <span class="card__domain-item">ReactJS, ContextAPI, Styled Componets</span>
+
             </div>
-    
+
             <div class="card__domain-box">
               <p class="card__domain-heading">Back End</p>
-              <span class="card__domain-item">React, Redux</span>
+              <span class="card__domain-item">FireBase</span>
             </div>
-    
+
             <div class="card__domain-box">
               <p class="card__domain-heading">Database</p>
-              <span class="card__domain-item">React, Redux</span>
+              <span class="card__domain-item">FireStore</span>
             </div>
 
             <div class="btn-group">
-
               <a href="#popup" class="btn btn--white">
                 Github
               </a>
@@ -184,18 +187,115 @@
 
 
     </section>
-    <section class="three" id="about">
+    <section id="technology">
+      <div class="heading-secondary-container">
+        <h1 class="heading-secondary">Technologies</h1>
+        <div class="gradient-line">&nbsp;</div>
+      </div>
+
+      <div class="icon-container">
+
+        <div class="icon-group">
+          <div class="tooltip">Bootstrap</div>
+          <img src="./assests/icons/bootstrap.svg" alt="bootstrap" class="icon" />
+        </div>
+
+        <div class="icon-group">
+          <div class="tooltip">Graphql</div>
+          <img src="./assests/icons/graphql.svg" alt="graphql" class="icon" />
+        </div>
+
+        <div class="icon-group">
+          <div class="tooltip">Typescript</div>
+          <img src="./assests/icons/typescript.svg" alt="typescript" class="icon" />
+        </div>
+
+        <div class="icon-group">
+          <div class="tooltip">React.js</div>
+          <img src="./assests/icons/reactjs.svg" alt="react.js" class="icon" />
+        </div>
+
+        <div class="icon-group">
+          <div class="tooltip">CSS</div>
+          <img src="./assests/icons/css.svg" alt="css" class="icon" />
+        </div>
+
+        <div class="icon-group">
+          <div class="tooltip">Firebase</div>
+          <img src="./assests/icons/firebase.svg" alt="firebase" class="icon" />
+        </div>
+
+        <div class="icon-group">
+          <div class="tooltip">HTML</div>
+          <img src="./assests/icons/html.svg" alt="html" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">Mongodb</div>
+          <img src="./assests/icons/mongodb.svg" alt="mongodb" class="icon" />
+        </div>
+
+        <div class="icon-group">
+          <div class="tooltip">Postgresql</div>
+          <img src="./assests/icons/postgres.svg" alt="postgresql" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">SASS</div>
+          <img src="./assests/icons/sass.svg" alt="sass" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">Tailwind</div>
+          <img src="./assests/icons/tailwind.svg" alt="tailwind css" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">Git</div>
+          <img src="./assests/icons/git.svg" alt="git" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">Redux</div>
+          <img src="./assests/icons/redux.svg" alt="redux js" class="icon" />
+        </div>
+        <div class="icon-group">
+          <div class="tooltip">JavaScript</div>
+          <img src="./assests/icons/javascript.svg" alt="javascript" class="icon" />
+        </div>
+
+        <div class="icon-group">
+          <div class="tooltip">Express</div>
+          <img src="./assests/icons/express.svg" alt="Express js" class="icon" />
+        </div>
+      </div>
+
+
+
+
+    </section>
+
+    <section id="about">
       <div class="heading-secondary-container">
         <h1 class="heading-secondary">About</h1>
         <div class="gradient-line">&nbsp;</div>
       </div>
 
-      <p class="paragraph">I’m obsessed with leveling the playing field. In 2017, when I embarked on an entrepreneurial journey with my life partner, Issey, and centered Golde around the vision that wellness and superfoods ought to be more approachable, inclusive, and (yes) fun. Within a few years of launch, we’d grown a profitable, bootstrapped brand with a full-time team of two to partnerships with Urban Outfitters, Goop, and have since launched at Target.
-<br/><br/>
-        While building a brand may have looked effortless from the outside, starting a business at age 23 with no resources or funding quickly forced me to realize that early-stage entrepreneurship was anything but transparent. In 2019, I began documenting my experience and learnings via office_hrs, a digital and irl series focused on helping more young people build, launch, and scale their own businesses. 
-<br/><br/>
-        
-        I live Upstate with tons of houseplants and a growing natural wine collection. Say hi here: tm@trinitymouzon.com.</p>
+      <p class="paragraph">
+        <span class="paragraph-heading">
+          👋 Hello, I am Stephanie Kedari.
+        </span>
+        <br />
+        I am a big picture thinker.
+        <br />I love to connect the dots and to find solutions to solve people’s problems.
+        <br />I do this by creating accessible, responsive and useful products with a great user experience.
+        <br />
+        <br />
+        I am a computer science student currently in my final year of my Bachelors in Computer Engineering.
+        I love solving problems and discovering new ways of doing things.
+
+        <br />Results are my driving force and developing
+        products, seeing my efforts produce such great uses and conveniences is what gives me true joy and satisfaction.
+        My goal is to build quality products that are both efficient and scalable, while also providing its users with
+        an amazing user experience.
+
+
+      </p>
     </section>
     <section class="section-about">
       <div class="heading-secondary-container">
@@ -203,27 +303,50 @@
         <div class="gradient-line">&nbsp;</div>
       </div>
       <div class="gradient-circle-small">&nbsp;</div>
-      <div class="form">
+      <form id="my-form" class="form" method="post">
         <div class="form-group">
-          <label>Name<input type="text" /></label>
+          <label>Name
+          </label>
+          <input name="name" type="text" />
         </div>
         <div class="form-group">
-          <label>Email<input type="email" /></label>
+          <label>Email
+          </label>
+          <input name="email" type="email" />
         </div>
 
         <div class="form-group">
           <label>Message</label>
-          <br/>
-          <textarea rows="8" maxlength="300" spellcheck="false" > </textarea>
+          <br />
+          <textarea name="message" rows="4" maxlength="300" spellcheck="false"> </textarea>
         </div>
-      </div>
-    </section>
-    <footer>
-      LinkedIN
-    </footer>
 
+        <div id="contact-form-status" class="form-group form-message">
+        </div>
+        <button type="submit" id="contact-form-submit-button" class="btn btn--gradient">Send</button>
+
+
+      </form>
+
+    <div class="contact-list">
+
+      <a href="/pa" class="contact-list-link">
+        <img src="./assests/icons/linkedin.svg" />
+      </a>
+
+      <a href="/pa" class="contact-list-link">
+        <img src="./assests/icons/github.svg" />
+      </a>
+
+      <a href="/pa" class="contact-list-link">
+        <img src="./assests/icons/download-btn.svg" />
+      </a>
+
+    </div>
+      
   </div>
 
+  <script src="https://kit.fontawesome.com/2059bd1290.js" crossorigin="anonymous"></script>
 
   <script src="app.js"></script>
 </body>

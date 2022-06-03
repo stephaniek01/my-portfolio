@@ -1,0 +1,17 @@
+.contact-list {
+  margin: 2rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  &-link {
+    
+    margin: 1rem;
+
+    img{
+        height: 5rem;
+        width: 5rem;
+    }
+  }
+}

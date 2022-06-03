@@ -3,82 +3,57 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
-}
-
-html {
-  // This defines what 1rem is
-  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
-  box-sizing: border-box;
   background-color: $color-background-dark;
 }
-
-.container {
-  height: 100vh;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-section {
-  color: whitesmoke;
-  scroll-snap-align: start;
-  padding: 10rem 25rem;
-}
-
 // below 600
-@media screen and (max-width: 600px) {
-  
-  .navbar {
-    font-size: 1.75rem !important;
-    font-weight: 600 !important;
+// @media screen and (max-width: 600px) {
+//   .card {
+//     height: 70rem !important;
 
-  }
+//     &__side {
+//       height: 70rem !important;
+//     }
+//   }
 
-  .heading-primary {
-    &-main {
-      font-size: 7.5rem !important;
-      letter-spacing: 1rem !important;
-      font-weight: 400 !important;
-  
-      // animation: fade-in 2.75s 0s, move-in-from-top 0.5s 2.75s;
-    }
-  
-    &-sub {
-      font-size: 2rem !important;
-      font-weight: 400 !important;
+//   .container {
+//     scroll-snap-type: none !important;
+//     // overflow-y: hidden !important;
+//   }
 
-    }
-  }
+//   .btn {
+//     padding: 0.75rem 1.25rem !important;
+//   }
 
-  .gradient-circle{
-    left: -30% !important;
-    top: 40% !important;
-  }
+//   .navbar {
+//     font-size: 1.25rem !important;
+//     font-weight: 600 !important;
 
-  section{
-    padding: 1rem !important;
-  }
-}
+//     padding: 0 !important;
+//   }
 
-@media screen and (max-width: 900px) {
-  section {
-    padding: 5rem;
-  }
-
-  .cards {
-    grid-template-columns: repeat(1, 1fr) !important;
-  }
-
-  .gradient-circle-small {
-    visibility: hidden;
-  }
-}
+//   .pargraph {
+//     font-size: 1.5rem !important;
+//   }
 
 
 
 
+// }
 
+// @media screen and (max-width: 900px) {
+//   section {
+//     padding: 5rem;
+//   }
+
+//   .cards {
+//     grid-template-columns: repeat(1, 1fr) !important;
+//   }
+
+//   .gradient-circle-small {
+//     visibility: hidden;
+//   }
+// }

@@ -25,3 +25,23 @@
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
 }
+
+.sm-hide {
+  visibility: visible;
+  display: block;
+
+  @media screen and (max-width: 1200px) {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.lg-hide {
+  visibility: hidden;
+  display: none;
+  @media screen and (max-width: 1200px) {
+    visibility: visible;
+  display: block;
+
+  }
+}

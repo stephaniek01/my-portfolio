@@ -1,0 +1,15 @@
+.tooltip{
+    position: absolute;
+    transform: translate(-50%, 200%);
+    left: 50%;
+    // bottom: 50%;
+    // bottom: -10px;
+    // margin-left: .75rem;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba($color: #fff, $alpha: 0.5);
+    display: inline;
+    border-radius: 10px;
+    padding: 1rem;
+    transition: all .2s ease-in;
+}

@@ -1,9 +1,39 @@
-.hero{
-    position: relative;
-    padding: 0;
-    min-height: 100vh;
+.container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  @media screen and (max-width: 900px) {
+    scroll-snap-type: none;
+  }
+
+}
+
+section {
+  color: whitesmoke;
+  scroll-snap-align: center;
+  padding: 10rem 25rem;
+  margin: 2rem 0;
+
+  @media screen and (max-width:1200px) {
+    padding: 3rem;
+    scroll-snap-align: none;
+  }
+}
+
+.hero {
+  position: relative;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.section-projects{
+  @media screen and (max-width: 400px) {
+    padding: .5rem !important;
+  }
 }
 
 .section-about {
-    position: relative;
+  position: relative;
 }
