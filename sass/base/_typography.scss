@@ -54,7 +54,7 @@ body {
     }
 
     &--1 {
-      animation: fade-in 2.75s 0s, move-in-from-top 0.5s 2.75s;
+      animation: fade-in 0.5s 0s, move-in-from-top 0.5s 0s;
     }
 
     &--2 {
@@ -63,7 +63,7 @@ body {
   }
 }
 
-.heading-secondary{
+.heading-secondary {
   font-size: 3rem;
   letter-spacing: $letter-spacing-small;
   font-weight: 200;
@@ -74,15 +74,19 @@ body {
     display: inline-block;
     margin-bottom: 3rem;
   }
-  
 }
 
 .paragraph {
   font-size: $font-size-small;
-  
+
+  &-heading {
+    font-size: 2.25rem;
+    font-weight: 600;
+    font-style: italic;
+  }
 }
 
-.gradient-background{
+.gradient-background {
   background-image: linear-gradient(
     to right,
     $color-primary-dark,
