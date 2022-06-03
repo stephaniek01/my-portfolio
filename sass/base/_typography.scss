@@ -39,7 +39,7 @@ body {
       font-weight: 400;
     }
 
-    animation: fade-in 3.25s 0s, move-in-from-top 1s 3.25s;
+    animation: fade-in 1s 0s, move-in-from-top .5s 1s;
   }
 
   &-sub {
@@ -54,11 +54,11 @@ body {
     }
 
     &--1 {
-      animation: fade-in 0.5s 0s, move-in-from-top 0.5s 0s;
+      animation: fade-in .5s 0s, move-in-from-top 0.5s .5s;
     }
 
     &--2 {
-      animation: fade-in 4.25s 0s, move-in-from-top 0.5s 4.25s;
+      animation: fade-in 2s 0s, move-in-from-top 0.5s 2s;
     }
   }
 }

@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<link lang="en">
-<link>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<head>
+  <link lang="en">
+  <link>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Favicon -->
+  <link rel="icon" href="./assests/favicon1.ico" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap"
-  rel="stylesheet" />
-<link rel="stylesheet" href="css/style.css">
-<title>Stephanie Kedari</title>
+  <!-- Google Fonts StyleSheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Custom Style Sheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Stephanie Kedari</title>
 </head>
 
 <body>
-
-
-
   <div class="container">
+
+    <!-- Hero Section -->
     <section class="hero">
       <div class="navbar">
         <ul class="navbar__list">
@@ -47,12 +53,15 @@
           </h2>
       </div>
     </section>
+
+    <!-- Projects Section -->
     <section id="projects">
       <div class="heading-secondary-container">
         <h1 class="heading-secondary">Projects</h1>
         <div class="gradient-line">&nbsp;</div>
       </div>
 
+      <!-- Project 1 -->
       <div class="cards">
         <div class="card">
           <div class="card__side card__side--front">
@@ -79,10 +88,10 @@
                 <p class="u-margin-bottom-small gradient-background">ReactJS, ReduxJS, FireBase, Styled Components,
                   JavaScript</p>
                 <div class="btn-group lg-hide u-margin-bottom-small">
-                  <a href="#popup" class="btn btn--white">
+                  <a href="https://github.com/stephaniek01/Social-Network" target="_blank" class="btn btn--white">
                     Github
                   </a>
-                  <a href="#popup" class="btn btn--white">
+                  <a href="https://intense-eyrie-26371.herokuapp.com/" target="_blank" class="btn btn--white">
                     Live Site
                   </a>
                 </div>
@@ -107,17 +116,17 @@
             </div>
 
             <div class="btn-group">
-
-              <a href="#popup" class="btn btn--white">
+              <a href="https://github.com/stephaniek01/Social-Network" target="_blank" class="btn btn--white">
                 Github
               </a>
-              <a href="#popup" class="btn btn--white">
+              <a href="https://intense-eyrie-26371.herokuapp.com/" target="_blank" class="btn btn--white">
                 Live Site
               </a>
             </div>
           </div>
         </div>
 
+        <!-- Project 2 -->
         <div class="card">
           <div class="card__side card__side--front">
             <div class="card__picture card__picture" id="project-2">
@@ -142,10 +151,10 @@
               <div class="lg-hide">
                 <p class="u-margin-bottom-small gradient-background">ReactJS, ReduxJS, NodeJS, Typescript</p>
                 <div class="btn-group lg-hide u-margin-bottom-small">
-                  <a href="#popup" class="btn btn--white">
+                  <a href="https://github.com/stephaniek01/e-commerce" target="_blank" class="btn btn--white">
                     Github
                   </a>
-                  <a href="#popup" class="btn btn--white">
+                  <a href="https://fascinating-beignet-3d8782.netlify.app/" target="_blank" class="btn btn--white">
                     Live Site
                   </a>
                 </div>
@@ -172,10 +181,10 @@
             </div>
 
             <div class="btn-group">
-              <a href="#popup" class="btn btn--white">
+              <a href="https://github.com/stephaniek01/e-commerce" target="_blank" class="btn btn--white">
                 Github
               </a>
-              <a href="#popup" class="btn btn--white">
+              <a href="https://fascinating-beignet-3d8782.netlify.app/" target="_blank" class="btn btn--white">
                 Live Site
               </a>
             </div>
@@ -183,10 +192,9 @@
         </div>
 
       </div>
-
-
-
     </section>
+
+    <!-- Technology Section -->
     <section id="technology">
       <div class="heading-secondary-container">
         <h1 class="heading-secondary">Technologies</h1>
@@ -272,6 +280,7 @@
       </div>
     </section>
 
+    <!-- About Section -->
     <section id="about">
       <div class="heading-secondary-container">
         <h1 class="heading-secondary">About</h1>
@@ -295,9 +304,10 @@
         products, seeing my efforts produce such great uses and conveniences is what gives me true joy and satisfaction.
         My goal is to build quality products that are both efficient and scalable, while also providing its users with
         an amazing user experience.
-
       </p>
     </section>
+
+    <!-- Contact Section -->
     <section class="section-about" id="contact">
       <div class="heading-secondary-container">
         <h1 class="heading-secondary">Contact</h1>
@@ -321,16 +331,13 @@
           <br />
           <textarea required name="message" rows="4" maxlength="300" spellcheck="false"> </textarea>
         </div>
-        
+
         <div id="contact-form-status" class="form-group form-message">
         </div>
         <button type="submit" id="contact-form-submit-button" class="btn btn--gradient">Send</button>
-
-
       </form>
 
       <div class="contact-list">
-
         <a href="https://linkedin.com/in/stephanie-kedari" target="_blank" class="contact-list-link">
           <img src="./assests/icons/linkedin.svg" alt="linkedin link" />
         </a>
@@ -339,18 +346,15 @@
           <img src="./assests/icons/github.svg" alt="github link" />
         </a>
 
-        <a href="https://drive.google.com/file/d/1IVN7PxYjlEJcE7EYJDJKdzVmovBhTzEe/view?usp=sharing"
+        <a href="https://drive.google.com/file/d/1fk_uBgGayhUFK9L4nJSReFg2ArZ3a6VR/view?usp=sharing"
           class="contact-list-link" target="_blank">
           <img src="./assests/icons/download-btn.svg" alt="download resume" />
         </a>
       </div>
-      
-        
-      
-  </div>
+    </section>
 
-  <script src="app.js"></script>
-  <script src="constants.js"></script>
+    <script src="app.js"></script>
+    <script src="constants.js"></script>
 </body>
 
 </html>

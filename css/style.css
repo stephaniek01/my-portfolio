@@ -75,7 +75,7 @@ body {
     font-size: 6.5rem;
     letter-spacing: 1.7rem;
     font-weight: 100;
-    animation: fade-in 3.25s 0s, move-in-from-top 1s 3.25s; }
+    animation: fade-in 1s 0s, move-in-from-top .5s 1s; }
     @media screen and (max-width: 600px) {
       .heading-primary-main {
         letter-spacing: 0.5rem;
@@ -90,9 +90,9 @@ body {
       .heading-primary-sub {
         font-weight: 400; } }
     .heading-primary-sub--1 {
-      animation: fade-in 0.5s 0s, move-in-from-top 0.5s 0s; }
+      animation: fade-in .5s 0s, move-in-from-top 0.5s .5s; }
     .heading-primary-sub--2 {
-      animation: fade-in 4.25s 0s, move-in-from-top 0.5s 4.25s; }
+      animation: fade-in 2s 0s, move-in-from-top 0.5s 2s; }
 
 .heading-secondary {
   font-size: 3rem;
