@@ -30,7 +30,7 @@ async function handleSubmit(event) {
     const response = await fetch(FORM_URL, requestOptions);
     const responseMessage = await response.json();
 
-    if (response.ok) {
+    if (responseMessage.ok) {
       displayMessage(
         "Your form was submitted successfully",
         "form-message--success"
