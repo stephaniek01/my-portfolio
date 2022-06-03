@@ -1,5 +1,3 @@
-import FORM_URL from './constants';
-
 var form = document.getElementById("my-form");
 var formStatus = document.getElementById("contact-form-status");
 
@@ -7,6 +5,7 @@ function displayMessage(message, messageClass = "") {
   formStatus.style.visibility = "visible";
   formStatus.innerHTML = message;
   formStatus.classList.toggle(messageClass);
+  setTimeout(makeMessageDisappear, 3000);
 }
 
 function makeMessageDisappear() {
@@ -36,23 +35,18 @@ async function handleSubmit(event) {
         "Your form was submitted successfully",
         "form-message--success"
       );
-      setTimeout(makeMessageDisappear, 3000);
       form.reset();
     } else {
       displayMessage(
         "Oops! There was a problem submitting your form",
         "form-message--error"
       );
-      setTimeout(makeMessageDisappear, 3000);
     }
-
-    console.log(responseMessage);
   } catch (error) {
     displayMessage(
       "Oops! There was a problem submitting your form",
       "form-message--error"
     );
-    setTimeout(makeMessageDisappear, 3000);
   }
 }
 

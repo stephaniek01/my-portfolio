@@ -196,13 +196,33 @@
       <div class="icon-container">
 
         <div class="icon-group">
+          <div class="tooltip">HTML</div>
+          <img src="./assests/icons/html.svg" alt="html" class="icon" />
+        </div>
+
+        <div class="icon-group">
+          <div class="tooltip">CSS</div>
+          <img src="./assests/icons/css.svg" alt="css" class="icon" />
+        </div>
+
+        <div class="icon-group">
+          <div class="tooltip">SASS</div>
+          <img src="./assests/icons/sass.svg" alt="sass" class="icon" />
+        </div>
+
+        <div class="icon-group">
+          <div class="tooltip">Tailwind</div>
+          <img src="./assests/icons/tailwind.svg" alt="tailwind css" class="icon" />
+        </div>
+
+        <div class="icon-group">
           <div class="tooltip">Bootstrap</div>
           <img src="./assests/icons/bootstrap.svg" alt="bootstrap" class="icon" />
         </div>
 
         <div class="icon-group">
-          <div class="tooltip">Graphql</div>
-          <img src="./assests/icons/graphql.svg" alt="graphql" class="icon" />
+          <div class="tooltip">JavaScript</div>
+          <img src="./assests/icons/javascript.svg" alt="javascript" class="icon" />
         </div>
 
         <div class="icon-group">
@@ -216,8 +236,13 @@
         </div>
 
         <div class="icon-group">
-          <div class="tooltip">CSS</div>
-          <img src="./assests/icons/css.svg" alt="css" class="icon" />
+          <div class="tooltip">Redux</div>
+          <img src="./assests/icons/redux.svg" alt="redux js" class="icon" />
+        </div>
+
+        <div class="icon-group">
+          <div class="tooltip">Express</div>
+          <img src="./assests/icons/express.svg" alt="Express js" class="icon" />
         </div>
 
         <div class="icon-group">
@@ -225,10 +250,6 @@
           <img src="./assests/icons/firebase.svg" alt="firebase" class="icon" />
         </div>
 
-        <div class="icon-group">
-          <div class="tooltip">HTML</div>
-          <img src="./assests/icons/html.svg" alt="html" class="icon" />
-        </div>
         <div class="icon-group">
           <div class="tooltip">Mongodb</div>
           <img src="./assests/icons/mongodb.svg" alt="mongodb" class="icon" />
@@ -238,36 +259,17 @@
           <div class="tooltip">Postgresql</div>
           <img src="./assests/icons/postgres.svg" alt="postgresql" class="icon" />
         </div>
+
         <div class="icon-group">
-          <div class="tooltip">SASS</div>
-          <img src="./assests/icons/sass.svg" alt="sass" class="icon" />
+          <div class="tooltip">Graphql</div>
+          <img src="./assests/icons/graphql.svg" alt="graphql" class="icon" />
         </div>
-        <div class="icon-group">
-          <div class="tooltip">Tailwind</div>
-          <img src="./assests/icons/tailwind.svg" alt="tailwind css" class="icon" />
-        </div>
+
         <div class="icon-group">
           <div class="tooltip">Git</div>
           <img src="./assests/icons/git.svg" alt="git" class="icon" />
         </div>
-        <div class="icon-group">
-          <div class="tooltip">Redux</div>
-          <img src="./assests/icons/redux.svg" alt="redux js" class="icon" />
-        </div>
-        <div class="icon-group">
-          <div class="tooltip">JavaScript</div>
-          <img src="./assests/icons/javascript.svg" alt="javascript" class="icon" />
-        </div>
-
-        <div class="icon-group">
-          <div class="tooltip">Express</div>
-          <img src="./assests/icons/express.svg" alt="Express js" class="icon" />
-        </div>
       </div>
-
-
-
-
     </section>
 
     <section id="about">
@@ -294,10 +296,9 @@
         My goal is to build quality products that are both efficient and scalable, while also providing its users with
         an amazing user experience.
 
-
       </p>
     </section>
-    <section class="section-about">
+    <section class="section-about" id="contact">
       <div class="heading-secondary-container">
         <h1 class="heading-secondary">Contact</h1>
         <div class="gradient-line">&nbsp;</div>
@@ -307,18 +308,18 @@
         <div class="form-group">
           <label>Name
           </label>
-          <input name="name" type="text" />
+          <input required name="name" type="text" />
         </div>
         <div class="form-group">
           <label>Email
           </label>
-          <input name="email" type="email" />
+          <input required name="email" type="email" />
         </div>
 
         <div class="form-group">
           <label>Message</label>
           <br />
-          <textarea name="message" rows="4" maxlength="300" spellcheck="false"> </textarea>
+          <textarea required name="message" rows="4" maxlength="300" spellcheck="false"> </textarea>
         </div>
 
         <div id="contact-form-status" class="form-group form-message">
@@ -328,27 +329,26 @@
 
       </form>
 
-    <div class="contact-list">
+      <div class="contact-list">
 
-      <a href="/pa" class="contact-list-link">
-        <img src="./assests/icons/linkedin.svg" />
-      </a>
+        <a href="https://linkedin.com/in/stephanie-kedari" target="_blank" class="contact-list-link">
+          <img src="./assests/icons/linkedin.svg" alt="linkedin link" />
+        </a>
 
-      <a href="/pa" class="contact-list-link">
-        <img src="./assests/icons/github.svg" />
-      </a>
+        <a href="https://github.com/stephaniek01" target="_blank" class="contact-list-link">
+          <img src="./assests/icons/github.svg" alt="github link" />
+        </a>
 
-      <a href="/pa" class="contact-list-link">
-        <img src="./assests/icons/download-btn.svg" />
-      </a>
+        <a href="https://drive.google.com/file/d/1IVN7PxYjlEJcE7EYJDJKdzVmovBhTzEe/view?usp=sharing"
+          class="contact-list-link" target="_blank">
+          <img src="./assests/icons/download-btn.svg" alt="download resume" />
+        </a>
+      </div>
 
-    </div>
-      
   </div>
 
-  <script src="https://kit.fontawesome.com/2059bd1290.js" crossorigin="anonymous"></script>
-
   <script src="app.js"></script>
+  <script src="constants.js"></script>
 </body>
 
 </html>
