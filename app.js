@@ -27,7 +27,7 @@ async function handleSubmit(event) {
   };
 
   try {
-    const response = await fetch(FORM_URL, requestOptions);
+    const response = await fetch("https://formspree.io/f/xlezzapz", requestOptions);
     const responseMessage = await response.json();
 
     if (responseMessage.ok) {
