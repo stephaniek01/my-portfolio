@@ -1,3 +1,4 @@
+console.log(FORM_URL);
 var form = document.getElementById("my-form");
 var formStatus = document.getElementById("contact-form-status");
 
